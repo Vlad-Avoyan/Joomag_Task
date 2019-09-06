@@ -1,0 +1,309 @@
+.globalContent{
+    width: 100%;
+    height: 430px;
+}
+.colek{
+    width: 970px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex
+}
+.teamContent{
+    width: 650px;
+    height: 430px;
+    padding-top: 50px;
+    padding-right: 100px;
+
+}
+.picBlock{
+    width: 500px;
+    height: 430px;
+    margin: 0 auto;
+    position: relative;
+}
+.bckground{
+    width: 400px;
+    height: 420px;
+    float: right;
+    background-color: #DEEEFF;
+    z-index: 0;
+    position: relative;
+}
+.textContent{
+    width: 100%;
+    height: 65px;
+    margin: 0 auto;
+    padding-left: 50px;
+    font-size: 18px;
+}
+.about{
+    width: 100%;
+    height: 285px;
+}
+.about>span{
+    font-size: 18px
+}
+.textContent>hr{
+    width: 10%;
+    height: 3px;
+    background-color: #2863FD;
+    margin-left: 0%
+}
+.blueText{
+    font-weight: bolder;
+    font-size: 22px;
+    color: #2863FD
+}
+.otherText{
+    font-weight: bold;
+    font-size: 23px
+}
+.img{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+    box-shadow: -10px 0px 40px -20px
+}
+@media screen and (min-width:960px) and (max-width:992px){
+.textContent{
+    width: 70%;
+    height: 60px;
+    margin: 0 auto
+    }
+.teamContent{
+    width: 480px;
+    padding: 0
+    }
+.colek{
+    width: 900px;
+    margin-top: 125px;
+    }
+.bckground{
+    width: 80%;
+    height: 430px;
+    float: right;
+    background-color: #DEEEFF;
+    z-index: 0;
+    position: relative;
+    }
+.img{
+    width: 420px;
+    height: 380px;
+    }
+.textContent{
+    padding: 0;
+    padding-left: 25.9px;
+    width: 100%;
+
+    }
+.textContent>span{
+    font-size: 20px
+    }
+.about{
+    font-family: Proxima Nova;
+    font-size: 18px;
+    line-height: 27px
+    }
+.picBlock,.teamContent{
+    height: 430px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:959px){
+.textContent{
+    width: 70%;
+    height: 60px;
+    margin: 0 auto
+    }
+.teamContent{
+    width: 480px;
+    padding: 0
+    }
+.colek{
+    width: 100%;
+    margin-top: 250px;
+    }
+.bckground{
+    width: 80%;
+    height: 430px;
+    float: right;
+    background-color: #DEEEFF;
+    z-index: 0;
+    position: relative;
+    }
+.img{
+    width: 370px;
+    height: 380px;
+    }
+.textContent{
+    padding: 0;
+    padding-left: 25.9px;
+    width: 100%;
+
+    }
+.textContent>span{
+    font-size: 20px
+    }
+.about{
+    font-family: Proxima Nova;
+    font-size: 18px;
+    line-height: 27px
+    }
+.picBlock,.teamContent{
+    height: 430px;
+    }
+}
+@media screen and (min-width:720px) and (max-width:768px){
+.textContent{
+    width: 78%;
+    height: 60px;
+    margin: 0 auto
+    }
+.teamContent{
+    width: 490px;
+    padding-top: 0;
+}
+.colek{
+    width: 700px;
+    height: 375px;
+}
+.bckground{
+    width: 50%;
+    height: 250px;
+    float: right;
+    background-color: #DEEEFF;
+    z-index: 0;
+    position: relative;
+    }
+.img{
+    width: 300px;
+    height: 270px;
+}
+.picBlock{
+    width: 500px;
+}
+.textContent{
+    width: 100%;
+    margin-right: 80px;
+    padding: 0
+}
+.textContent>span{
+    font-size: 18px
+}
+.about{
+    width: 130%;
+    height: 200px;
+    font-family: Proxima Nova;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0;
+}
+.teamContent,.picBlock{
+    height: 370px;
+    }
+}
+@media screen and (min-width:527px) and (max-width:719px){
+    .teamContent{
+    width: 250px;
+    height: 300px;
+}
+.textContent{
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    padding: 0
+}
+.colek{
+    width: 300px;
+    height: 800px;
+    display: block;
+    margin-top: 30px;
+}
+.about{
+    width: 100%;
+    height: 270px;
+    font-family: Proxima Nova;
+    font-size: 18px;
+    line-height: 27px;
+    overflow: hidden
+}
+.picBlock{
+    width: 100%;
+    height: 270px;
+}
+.img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px
+    }
+.bckground{
+    width: 70%;
+    height: 330px;
+    background-color: #DEEEFF;
+    z-index: 0;
+    position: relative;
+}
+.picBlock{
+    margin-top: 10px;
+    height: 370px;
+}
+.teamContent{
+     width: 100%;
+    height: 450px;
+    padding: 0;
+  }
+}
+@media screen and (min-width:360px) and (max-width:526px){
+.teamContent{
+     width: 250px;
+    height: 300px;
+}
+.textContent{
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    padding: 0
+}
+.colek{
+    width: 300px;
+    height: 800px;
+    display: block;
+    margin-top: 750px;
+}
+.about{
+    width: 100%;
+    height: 270px;
+    font-family: Proxima Nova;
+    font-size: 18px;
+    line-height: 27px;
+    overflow: hidden
+}
+.picBlock{
+     width: 100%;
+    height: 270px;
+}
+.img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px
+}
+.bckground{
+    width: 70%;
+    height: 330px;
+    background-color: #DEEEFF;
+    z-index: 0;
+    position: relative;
+}
+.picBlock{
+    margin-top: 10px;
+    height: 370px;
+}
+.teamContent{
+    width: 100%;
+    height: 450px;
+    padding: 0;
+    }
+}

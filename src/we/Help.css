@@ -1,0 +1,97 @@
+.bckCol{
+    width: 100%;
+    height: 344px;
+    margin-top: 220.88px;
+    border: 2px solid black;
+    background-image: linear-gradient(280.81deg, #000000 3.28%, #002347 68.98%, #002B58 100%);
+}
+.conteinerDiv{
+    width: 450px;
+    height: 300px;
+    margin: 0 auto;
+}
+.helpText{
+    width: 400px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 116px;
+}
+.helpText>strong{
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: Proxima Nova
+}
+.helpText>span{
+    color: white;
+    font-size: 23px;
+    padding-left: 10px;
+    font-family: Proxima Nova
+}
+.helpText>button{
+    width: 133.03px;
+    height: 37px;
+    margin-left: 120px;
+    margin-top: 40px;
+    background: #2836FD;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    outline: none
+}
+@media screen and (min-width:960px) and (max-width:992px){
+    .bckCol{
+    width: 100%;
+    margin-top: 250px;
+    }
+}
+
+@media (min-width:720px) and (max-width:768px){
+    .bckCol{
+    margin-top: 350px
+    }
+}
+@media (min-width:527px) and (max-width:719px){
+    .bckCol{
+        width: 100%;
+        margin-top: 500px;
+        }
+        .conteinerDiv{
+        width: 330px;
+        }
+        .helpText{
+        width: 80%;
+        font-size: 17px
+        }
+        .helpText>strong{
+        font-size: 18px
+        }
+        .helpText>span{
+        font-size: 20px
+        }
+        .helpText>button{
+        margin-left: 60px;
+        }
+}
+@media (min-width:360px) and (max-width:526px) {
+    .bckCol{
+    width: 100%;
+    margin-top: 500px;
+    }
+    .conteinerDiv{
+    width: 330px;
+    }
+    .helpText{
+    width: 80%;
+    font-size: 17px
+    }
+    .helpText>strong{
+    font-size: 18px
+    }
+    .helpText>span{
+    font-size: 17px
+    }
+    .helpText>button{
+    margin-left: 60px;
+    }
+}

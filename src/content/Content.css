@@ -1,0 +1,209 @@
+.globalDiv{
+    width: 100%;
+    height: 570px;
+    }
+.textInfo{
+   width: 100%;
+   height: 130px;
+}
+.cinstructor{
+    width: 900px;
+    height: 130px;
+    margin: 0 auto;
+    margin-top: 140.01px;
+}
+.textInfo>h3{
+    font-weight: bold
+}
+.textInfo>strong{
+    color:#2863FD;
+    font-weight: bold;
+    font-size: 20px
+}
+.timeItems{
+    width: 210px;
+    box-sizing: border-box
+}
+.line{
+    width: 50px;
+    height: 3px;
+    color: #123455;
+    background-color: #2863FD;
+    border: none;
+    margin: 0 auto;
+    margin-right: 900px;
+}
+.itemsInfo{
+    width: 90%;
+    height: 270px;
+    margin: 0 auto;
+    margin-top: 10px
+    
+}
+.con{
+    width: 880px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+}
+.liveChat,.time,.talent,.continuous{
+    width: 25%;
+    height: 340px;
+   
+}
+.chatItems{
+    width: 210px;
+    box-sizing: border-box;
+
+}
+.teamItems{
+    width: 210px;
+    box-sizing: border-box;
+
+}
+.continuousItems{
+    width: 160px;
+    box-sizing: border-box;
+
+}
+.chatItems>strong{
+    font-weight: bold;
+    padding-top: 20px 
+}
+.timeItems>strong{
+    font-weight: bold;
+    padding-top: 20px 
+}
+@media screen and (min-width:960px) and (max-width:992px){
+.globalDiv{
+    width: 100%;
+    height: 750px;
+}
+.liveChat,.time,.talent,.continuous{
+    width: 350px;
+    height: 270px;
+}
+.con{
+    width: 800px;
+    margin: 26px
+}
+.textInfo{
+    margin: 26px
+}
+.line{
+    width: 50px
+}
+.itemsInfo{
+    margin: 0px;
+    margin-top: 50px;
+}
+.cinstructor{
+    margin: 0;
+    margin-top: 50.95px;
+
+}
+.con{
+    width: 690px;
+    height: 550px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+}
+@media (min-width:769px) and (max-width:958px){
+.con{
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto
+}
+.cinstructor{
+    width: 100%;
+}
+}
+@media screen and (min-width:720px) and (max-width:768px){
+.globalDiv{
+    width: 100%;
+    height: 750px;
+}
+.itemsInfo{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.liveChat,.time,.talent,.continuous{
+    width: 100%;
+    height: 270px;
+}
+.textInfo{
+    width: 100%;
+    height: 60px;
+    margin-right: 300px;
+}
+.line{
+    margin-left: 30px
+}
+.con{
+    width: 690px;
+    height: 550px;
+    display: grid;
+    grid-template-columns: auto auto;
+    }
+.cinstructor{
+    width: 100%;
+}
+}
+@media screen and (min-width:526px) and (max-width:720px){
+.globalDiv{
+    width: 100%;
+    height: 800px;
+}
+.itemsInfo{
+    width: 100%;    
+}
+.liveChat,.time,.talent,.continuous{
+    width: 100%;
+    height: 270px;
+}
+.textInfo{
+    width: 300px;
+    height: 80px;
+    font-size: 15px;
+}
+.textInfo>h3{
+    font-size: 15px;
+}
+.textInfo>strong    {
+    font-size: 15px;
+}
+.line{
+    margin-left: 7px
+}
+.con{
+    width: 390px;
+    height: 35px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5%
+}
+.cinstructor {
+    width: 330px;
+    margin: 10px;
+    margin-top: 80px;
+    }
+}
+@media screen and (min-width:360px) and (max-width:526px){
+.con{
+    width: 50%;
+    display: block
+}
+.cinstructor{
+    width: 100%;
+}
+.liveChat,.time,.talent,.continuous{
+    width: 100%;
+    height: 270px;
+}
+.textInfo{
+    width: 90%;
+    }
+}

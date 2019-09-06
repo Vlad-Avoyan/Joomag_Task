@@ -1,0 +1,160 @@
+.General{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+   background-image: linear-gradient(280.81deg, #000000 3.28%, #002347 68.98%, #002B58 100%);
+}
+.abr{
+    width: 950px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+}
+.Info{
+    width: 710px;
+    height: 360px;
+    padding-top: 50px;
+    padding-left: 90px;
+    margin: 0 auto;
+   
+}
+.Info>h1{
+    color: white;
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-family: 'Manjari', sans-serif;    
+}
+.Info>span{
+    color: white;
+    font-size: 20px;
+    font-family: 'Manjari', sans-serif;
+}
+.Pic{
+    width: 640px;
+    height: 370px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.im{
+    width: 420px
+}
+@media screen and (min-width:960px) and (max-width:992px){
+    .General{
+    display: block;
+    height: 590px;
+    position: relative;
+    }
+    .abr{
+    width: 930px;
+    height: 586px;
+    display: block
+    }
+    .Info{
+    width: 680px;;
+    height: 230px;
+    margin: 0 auto;
+    margin-left: 70px;
+    padding: 10px;
+    display: block;
+    }
+    .Pic{
+    width: 540px;
+    height: 350px;
+    margin: 0 auto;
+    margin-right: 95px;
+    padding: 0;
+    }
+    .Info>h1{
+    font-size: 42px;
+    font-family: 'Manjari', sans-serif;
+    }
+    .Info>span{
+    font-family: 'Manjari', sans-serif;
+    }
+    .im{
+    width: 500px;
+    }
+}
+@media (min-width:769px) and (max-width:958px){
+    .General{
+    height: 300px;
+    }
+    .Info{
+    width: 390px;
+    height: 250px;
+    padding: 0;
+    padding-left: 20px;
+    }
+    .Info>h1{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Manjari', sans-serif;
+    }
+    .Info>span{
+    font-family: 'Manjari', sans-serif;
+    }
+    .Pic{
+    width: 350px;
+    height: 260px;
+    overflow: hidden;
+    }
+    .im{
+    width: 300px;
+    }
+}
+@media (min-width:720px) and (max-width:768px){
+    .General{
+    display: block;
+    height: 650px;
+    }
+    .abr{
+    width: 690px;
+    height: 650px;
+    display: block
+    }
+    .Info{
+    width: 100%;
+    height: 250px;
+    }
+    .Info>h1{
+    font-size: 35px;
+    font-weight: bold
+    }
+    .Pic{
+    width: 100%;
+    height: 400px;
+    }
+    .im{
+    width: 500px;
+    margin-left: 100px
+    }
+}
+@media (min-width:360px) and (max-width:720px){
+    .General{
+    display: block;
+    height: 520px;
+    }
+    .abr{
+    width: 330px;
+    height: 520px;
+    display: block
+    }
+    .Info{
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    padding: 5px
+    }
+    .im{
+    width: 310px;
+    }
+    .Info>h1{
+    font-size: 31px
+    }
+    .Pic{
+    width: 100%;
+    height: 280px;
+    margin: 0 auto;
+    }
+}
